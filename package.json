@@ -1,0 +1,26 @@
+{
+  "name": "instachad",
+  "version": "1.0.0",
+  "description": "Una app insparada en instagram",
+  "main": "index.js",
+  "author": "Cristian Martin Molina",
+  "license": "MIT",
+  "scripts": {
+    "dev": " nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.21.0",
+    "aws-sdk": "^2.707.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.25.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
